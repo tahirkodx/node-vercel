@@ -12,7 +12,7 @@ require("dotenv").config();
 const express = require("express");
 // const dataRoutes = require("./routes/dataRoutes");
 const app = express();
-// const youtube = require("./api/getVideoTitle");
+const youtubeApi = require("./routes/youtube");
 const cors = require("cors")
 const PORT = process.env.PORT || 3000;
 // const apiKey = process.env.YOUTUBE_API_KEY || 'AIzaSyDuP-DCnFOUqE0whVUCgC6Fg2c1T7zlan8';
